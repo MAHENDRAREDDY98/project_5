@@ -1,0 +1,28 @@
+.signup {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/01.jpg") no-repeat center center; // Photo by Persnickety Prints on Unsplash
+    background-size: cover;
+    padding: 10em 0;
+
+    &__overlay {
+        position: absolute;
+        background-color: #212529;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.4;
+    }
+
+    &__text {
+
+        &__h2 {
+            color: white;
+        }
+
+        &__form {
+            margin: 1.5em 0;
+        }
+    }
+}
